@@ -35,18 +35,34 @@
 
 # [0, 30)
 # [15, 20]
-i = 0
-while i < 30:  # i = 15
-    if 15 <= i and i <= 20:
-        i += 1
-        continue
+# i = 0
+# while i < 30:  # i = 15
+#     if 15 <= i and i <= 20:
+#         i += 1
+#         continue
+#
+#     print(i)
+#     i += 1
+# # [15, 20]
+# value = 15
+#
+# if 15 <= value and value <= 20:
+#     print("in range")
+# else:
+#     print("not in range")
 
-    print(i)
-    i += 1
-# [15, 20]
-value = 15
 
-if 15 <= value and value <= 20:
-    print("in range")
-else:
-    print("not in range")
+begin = 10
+copy = begin
+
+print("first: ")
+while begin > 0:
+
+    print(begin)
+    begin -= 1
+
+print("second: ")
+while begin > 0:
+    print(begin)
+    begin -= 1
+
