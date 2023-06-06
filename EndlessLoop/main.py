@@ -37,3 +37,10 @@ from random import randint
 rnd = randint(10, 99)  # 1/90  * 1/90
 
 print(rnd)
+
+# range check
+
+n = 15
+
+if n >= 1 and n <= 45:
+	print("in range")
