@@ -54,10 +54,17 @@
 # 	if break_required:
 # 		break
 #############################
-for i in range(5):
-	for j in range(5):
-		if i >= 1 and i <= 3 and j >= 1 and j <= 3:
-			print("  ", end="")
-		else:
-			print("* ", end="")
-	print()
+# for i in range(5):
+# 	for j in range(5):
+# 		if i >= 1 and i <= 3 and j >= 1 and j <= 3:
+# 			print("  ", end="")
+# 		else:
+# 			print("* ", end="")
+# 	print()
+
+
+for _ in range(0):
+    for _ in range(0):  # spaces
+        pass
+    for _ in range(0):  # stars
+        pass
