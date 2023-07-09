@@ -74,7 +74,7 @@ def get_student_by_name(name):  # name = "Аян" "Гусейнли Аян Фа�
     for student in students:
         if name in student:
             return student
-
+    return None
 
 def update_student_by_name(name, new_fullname):
     for i in range(len(students)):
@@ -106,12 +106,13 @@ add_student("Байрамов Али Юсиф")
 #
 # students.sort()
 
-remove_student("Сигарёв Вадим ...")
+# remove_student("Сигарёв Вадим ...")
 
 student = get_student_by_name("Вадим")
-new_fullname = student.replace("...", "Генадьевич")
 
-update_student_by_name("Вадим", new_fullname)
+if student is not None:
+    new_fullname = student.replace("...", "Генадьевич")
+    update_student_by_name("Вадим", new_fullname)
 
 print(students)
 
@@ -137,3 +138,9 @@ print(students)
 #
 #
 # print(value)
+
+l = [0, 0, 1, 2]
+
+s = None
+
+print(type(s))
