@@ -165,3 +165,12 @@ items = json.load(fd)
 print(items)
 
 fd.close()
+
+
+def sum(a=5, b=10):
+    return a + b
+
+
+result = sum(b=25, a=10)
+
+print(result)
