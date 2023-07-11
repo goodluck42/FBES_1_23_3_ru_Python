@@ -1,0 +1,19 @@
+[
+ {
+  "name": "Beer",
+  "price": 0.5,
+  "categories": [
+   "Alco",
+   "Drink",
+   "Sparkling"
+  ]
+ },
+ {
+  "name": "Prawns",
+  "price": 12,
+  "categories": [
+   "Seafood",
+   "Frozen"
+  ]
+ }
+]
